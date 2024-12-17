@@ -8,10 +8,12 @@ for i in range(int(length/2)):
     nums[i]=temp
 print(nums)    
 
-# using reverse method
+# using reverse method(modify existing list)
 nums.reverse()
 print(nums)
 
+#using reversed method (return new list)
+print(list(reversed(nums)))
 
 #optimized code
 nums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
